@@ -62,7 +62,8 @@ def accepts(transitions,initial,accepting,s):
 
 def cekTypes(sentence):
     #Jadikan semua menjadi lowercase
-    sentence.lower()
+    sentence = sentence.lower()
+    print(sentence)
     #Split semua menjadi per-string
     strings = sentence.split()
     types = []
@@ -81,5 +82,3 @@ def cekTypes(sentence):
     
     types.append('$')
     return types
-
-print(cekTypes("saya makan"))

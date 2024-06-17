@@ -104,5 +104,3 @@ def PDA(sentence):
     state = 'q3'
     print(state)
 
-                    
-PDA("saya makan kapal")
