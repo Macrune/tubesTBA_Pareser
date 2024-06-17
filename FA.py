@@ -79,6 +79,7 @@ def cekTypes(sentence):
         else:
             return []
     
+    types.append('$')
     return types
 
 print(cekTypes("saya makan"))
