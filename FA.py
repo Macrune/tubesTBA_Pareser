@@ -63,7 +63,6 @@ def accepts(transitions,initial,accepting,s):
 def cekTypes(sentence):
     #Jadikan semua menjadi lowercase
     sentence = sentence.lower()
-    print(sentence)
     #Split semua menjadi per-string
     strings = sentence.split()
     types = []
